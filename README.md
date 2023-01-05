@@ -1,10 +1,16 @@
 # ModemRebooter
 ## SONOFF S20/S26 - Internet Checker and automatic model rebooter with micropython
 
+Some modems and some service providers do not have a stable internet connection and sometimes the internet connection is randomly disconnected. In such cases, the best solution is to restart the modem. It is an important problem especially for people who remotely connect to devices at home. 
+
+My friend Mr. Cenap came to me with a similar problem. I prepared this product and small codes for him. I preferred to use a sonoff's smart plug to make it tidy. In this way, it was both a safe and visually better... 
+
+
 **Device :** [SONOFF S20 / S26](https://sonoff.tech/product/smart-plugs/s26/) <br>
 **Device for serial connection :** FT232RL TTL USB Serial Port Adapter <br>
 **Hacking :** [Hacking Sonoff S26 WiFi Smart Plug](https://notenoughtech.com/home-automation/hacking-sonoff-wifi-smart-plug/) <br>
 
+**Not:** you could easily make your own circuit. All you need is that a microcontroller like ESP or Pico and a Relay element. 
 
 **WARNING : NEVER POWER YOUR DEVICE WITH POWERLINE DURING ALL PROCESS**
 
@@ -39,6 +45,7 @@ rsync . /pyboard
 ## Button Functions
 
 one short press = rebooting 
+
 long press than 5 sec = delete stored wifi datas and disconnect 
 
 
