@@ -9,7 +9,7 @@
 **WARNING : NEVER POWER YOUR DEVICE WITH POWERLINE DURING ALL PROCESS**
 
 1. Step: To make correct wiring between SONOFF device and USB serial Port adapter
-      GND-GND, VCC-VCC, RX-TX, TX-RX 
+      <code>GND-GND</code> , <code>VCC-VCC</code> , <code>RX-TX</code> , <code>TX-RX</code> 
 2. Step: Be sure to use 3.3 Volt: Probably there is small jumper on your FTL USB serial port adaper
 4. Step: install [esptool](docs.micropython.org/en/latest/esp8266/tutorial/intro.html) 
       - install esptool on PC
@@ -33,8 +33,13 @@ rsync . /pyboard
 
 ## Algorithm
 
+![image](https://user-images.githubusercontent.com/11840582/210866834-43f840b3-9553-460b-89e7-90c3922bffce.png)
 
 
+## Button Functions
+
+one short press = rebooting 
+long press than 5 sec = delete stored wifi datas and disconnect 
 
 
 <b>Source :</b> 
