@@ -2,18 +2,19 @@
 ## SONOFF S20/S26 - Internet Checker and automatic model rebooter with micropython
 
 **Device :** [SONOFF S20 / S26](https://sonoff.tech/product/smart-plugs/s26/) <br>
-**Device for connection :** FT232RL TTL USB Serial Port Adapter <br>
+**Device for serial connection :** FT232RL TTL USB Serial Port Adapter <br>
 **Hacking :** [Hacking Sonoff S26 WiFi Smart Plug](https://notenoughtech.com/home-automation/hacking-sonoff-wifi-smart-plug/) <br>
 
 
-**WARNING : NEVER POWER YOUR DEVICE WITH POWERLINE**
+**WARNING : NEVER POWER YOUR DEVICE WITH POWERLINE DURING ALL PROCESS**
 
-1. Step: Correct wiring between SONOFF device and USB serial Port adapter
-2. Step: Be sure 3.3 Volt selected on FTL USB serial port adaper
+1. Step: To make correct wiring between SONOFF device and USB serial Port adapter
+      GND-GND, VCC-VCC, RX-TX, TX-RX 
+2. Step: Be sure to use 3.3 Volt: Probably there is small jumper on your FTL USB serial port adaper
 4. Step: install [esptool](docs.micropython.org/en/latest/esp8266/tutorial/intro.html) 
-      - install esptool 
+      - install esptool on PC
       - powered device only with USB serial adapter with holding button on device to enter boot mode 
-      - erase device and load newest micropython code on device ( 1 MB ESP8266 code)  
+      - erase device and upload newest micropython code on device ( 1 MB ESP8266 code)  
 
       ```sh
       pip install esptool
