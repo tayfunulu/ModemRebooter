@@ -5,6 +5,8 @@ Some modems and some service providers do not have a stable internet connection 
 
 My friend Mr. Cenap came to me with a similar problem. I prepared this product and small codes for him. I preferred to use a sonoff's smart plug to make it tidy. In this way, it was both a safe and visually better... 
 
+![image](https://user-images.githubusercontent.com/11840582/210970263-f4bdb6d9-734b-406d-ac57-4675051ff585.png)
+
 
 **Device :** [SONOFF S20 / S26](https://sonoff.tech/product/smart-plugs/s26/) <br>
 **Device for serial connection :** FT232RL TTL USB Serial Port Adapter <br>
@@ -35,6 +37,8 @@ sudo pip3 install rshell
 sudo rshell --buffer-size=30 -p /dev/ttyUSB0
 rsync . /pyboard
 ```
+
+![image](https://user-images.githubusercontent.com/11840582/210970394-09c92544-9e2c-4604-aac5-32532961feaf.png)
 
 
 ## Algorithm
