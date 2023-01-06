@@ -43,7 +43,7 @@ rsync . /pyboard
 
 ## Algorithm
 
-![image](https://user-images.githubusercontent.com/11840582/210866834-43f840b3-9553-460b-89e7-90c3922bffce.png)
+![image](https://user-images.githubusercontent.com/11840582/211072282-98657654-2961-4e2b-80bc-56c501638fa5.png)
 
 
 ## Button Functions
