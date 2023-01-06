@@ -45,8 +45,7 @@ rsync . /pyboard
 ## Button Functions
 
 one short press = rebooting 
-
-long press than 5 sec = delete stored wifi datas and disconnect 
+5 sec long press  = delete stored wifi datas and disconnect (like factory reset)
 
 
 <b>Source :</b> 
